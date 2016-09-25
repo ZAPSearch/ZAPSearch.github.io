@@ -4,7 +4,7 @@ Team Name: ZAPS
 Members:
 Anthony Sabbagh 8735782 
 Parastoo Saharkhiz 8697886 Zaid Saeed: 8621155
-
+Location : Ottawa
 
 
 Product Name: ZAPSearch
