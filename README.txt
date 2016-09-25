@@ -11,5 +11,5 @@ Product Name: ZAPSearch
 
 Product 
 Description: 
-A search tool for the inventory of nearby retail stores, similar to Trivago. Compares prices of different products at different
+A search tool for the inventories of nearby retail stores, similar to Trivago. Compares prices of different products at different
 retail locations near the user.
