@@ -1,18 +1,21 @@
 Team Name: ZAPS
 
 
-Members:
-Anthony Sabbagh 8735782
 
-Parastoo Saharkhiz 8697886
-Zaid Saeed: 8621155
+Members:
+
+Anthony Sabbagh : 8735782
+
+Parastoo Saharkhiz : 8697886
+Zaid Saeed : 8621155
+Stephane Rancourt : 8689341
 
 Location : Ottawa
 
 
+
 Product Name: ZAPSearch
 
-Product 
-Description: 
-A search tool for the inventories of nearby retail stores, similar to Trivago. Compares prices of different products at different
-retail locations near the user.
+
+
+Product Description: ZAPSearch is a search engine of local retail stores' inventory. This search engine allows users to easily and quickly compare prices of desired products of nearby stores.
