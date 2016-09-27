@@ -1,10 +1,15 @@
+GitHub Organization/Repository Links:
+organization link: https://github.com/ZAPSearch
+organization repository link: https://github.com/ZAPSearch/ZAPSearch.github.io
 Team Name: ZAPS
 
-Members:
-Anthony Sabbagh : 8735782
-Parastoo Saharkhiz : 8697886
-Zaid Saeed : 8621155
-Stephane Rancourt : 8689341
+Members: (GitHub Usernames in Paranthesis)
+Anthony Sabbagh : 8735782 (AnthonySabbagh)
+Parastoo Saharkhiz : 8697886 (Parastoo-S)
+Zaid Saeed : 8621155 (zaidsaeed)
+Stephane Rancourt : 8689341 ()
+
+Github Pages Link: https://github.com/ZAPSearch/ZAPSearch.github.io/blob/master/README.txt
 
 Location : Ottawa
 
