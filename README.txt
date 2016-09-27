@@ -15,4 +15,4 @@ Location : Ottawa
 
 Product Name: ZAPSearch
 
-Product Description: ZAPSearch is a search engine of local retail stores' inventory. This search engine allows users to easily and quickly compare prices of desired products of nearby stores.
+Product Description: ZAPSearch is a search engine for local retail stores' inventory. This search engine allows users to easily and quickly compare prices of desired products of nearby stores.
