@@ -2,10 +2,12 @@
 ZAPSearch
 </title>
 
-
+<head>
 
 <style>
     
+    
+
     .button1 {
 	background-color: #80a4bb;
 	border: none;
@@ -17,26 +19,54 @@ ZAPSearch
 	font-size: 16px;
     	cursor: pointer;
     	position: absolute;
+	font-family: "Verdana", "Geneva", sans-serif;
     	width: 200px; 
     	height: 75px;
 
 	}
 
-    th:hover {
-    background-color: #29acb0; 
+    th:hover  {
+    background-color: #3B586B;
+    color: #3B586B;
+    
+    }
+	
+
+    a:link {
+    color: white;
+    text-decoration: none;
+    }
+
+    a:hover{color: #3B586B;}
+
+    table#t01 {
+    width: 30%;
+    background-color: #80a4bb;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+    height: 50px;
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    right:0;
+    margin-top:20%;
     
     }
 
-    table#t01 {
-    width: 100%;
-    background-color: #2d7f84;
+    table#t02 {
+    width: 30%;
+    background-color: #80a4bb;
     color: white;
     cursor: pointer;
     border-collapse: collapse;
     text-align: center;
-    height: 50px;
-    font-family: "Cominc Sans MS", cursive, sans-serif;
-    font-size: 20px;
+    height: 8px;
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    right:0;
+    margin-top:20%;
     
     }
 
@@ -45,15 +75,29 @@ ZAPSearch
 </head>
 
 
-<body>
-  <button class="button1" style="right: 15%;">About Us </button>
-  <img  alt="Background picture, maybe scrolling" width=100% height="400">
+<body style="background-color: #E3E8E8">
   <table id="t01">
     <tr>
-      <th onclick="location.href= 'Features_C'"> Features </th>
-
-      <th onclick="location.href= 'Pricing_C.html'"> Pricing us</th>
+      <td> <a id ="a01" href="Features_C.html" >Features</a></td>
+      <td> <a id ="a01" href="Features_C.html" >Pricing</a></td>
+      <td> <a id ="a01" href="Features_C.html" >About Us</a></td>	
     </tr>
   </table>
-  <p> Will include the general information about ZAPSearch</p>
+
+  <table id="t02">
+    <tr>
+      <th onclick="location.href= 'Features_C'">  </th>
+
+      <th onclick="location.href= 'Pricing_C.html'"> </th>
+      <th onclick="locaatoin.href= 'About_ZAPS.html'"></th>	
+    </tr>
+  </table>
+
+  <button class="button1" style="right: 15%;">About Us </button>
+  <img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:400px; object-fit: cover;">
+
+  
+
+  
+<p> Will include the general information about ZAPSearch</p>
 </body>
