@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type = "text/css" rel="stylesheet" href="CustomerReviewCSS.css" />
+<title>Customer Reviews</title>
+</head>
+<body>
+<tbody>
+<thead>
+<tr>
+<td>
+<img src = "Customer_1"/>
+<p>ZAPSearch helped me find stores in my neighourhood that I thought I'd never find! </p>
+</td>
+</tr>
+
+<tr>
+</tr>
+</thead>
+</tbody>
+</body>
+</html>
