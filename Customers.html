@@ -1,3 +1,4 @@
+<html>
 <title style = "color: red; font-size:30px">
 ZAPSearch
 </title>
@@ -8,8 +9,8 @@ ZAPSearch
     
     html {
 	
-border-left: 250px solid #B7A46F;
-border-right: 250px solid #B7A46F;
+border-left: 250px solid #E3E8E8;
+border-right: 250px solid #E3E8E8;
 }
 
     .button1 {
@@ -22,28 +23,17 @@ border-right: 250px solid #B7A46F;
 	display: inline-block;
 	font-size: 16px;
     	cursor: pointer;
-    	position: absolute;
+    	position:absolute;
 	font-family: "Verdana", "Geneva", sans-serif;
     	width: 200px; 
     	height: 75px;
+	z-index:1;
+
 
 	}
 
-    th:hover  {
-    background-color: #3B586B;
-    color: #3B586B;
-    
-    }
+    th:hover {background-color:#3B586B}
      
-
-    .divbg {
-    z-index:1;
-    width:75%; 
-    height:100%; 
-    background-color:#798A95; 
-    position:absolute;
-    left:12.5%; top:0;
-    }
 
     a:link {
     color: white;
@@ -61,11 +51,10 @@ border-right: 250px solid #B7A46F;
     height: 50px;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    position: absolute;
+    z-index:1;
     right:300;
-    margin-top:23%;
-    z-index:3;
-    
+    position:absolute;
+    top:45%;
     }
 
     table#t02 {
@@ -78,12 +67,17 @@ border-right: 250px solid #B7A46F;
     height: 8px;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    position: absolute;
+    top:45%;
+    position:absolute;
     right:300;
-    margin-top:23%;
-    z-index:4;
     
-    }
+ 	
+    z-index:50;}
+	
+#z {background-color:black;}
+
+
+
 .left p#01 {
 }
 
@@ -100,33 +94,32 @@ border-right: 250px solid #B7A46F;
 
     
 
-<div   onclick="location.href= 'Opening.html'" style="cursor:pointer; width:300px; height:100px; background-color:#3B586B; position:absolute; left:350;"><h style="color:white;">*Logo*</h></div>
+<div onclick="location.href= 'Opening.html'" style="cursor:pointer; width:300px; height:100px; background-color:#3B586B; position:absolute; left:350;"><h style="color:white;">*Logo*</h></div>
 
-<body style="background-color: #E3E8E8">
+<body style="background-color: white;">
     
     
-     
-    <table id="t01" >
+    <table id="t01">
     <tr>
-      <td> <a id ="a01" href="Features_C.html" >Features</a></td>
+      <td> <a href="Features_C.html" >Features</a></td>
       <td> <a id ="a01" href="Features_C.html" >Pricing</a></td>
       <td> <a id ="a01" href="About2.html" >About Us</a></td>	
     </tr>
   </table>
 
   <table id="t02">
-    <tr>
+    <tr>     
       <th onclick="location.href= 'Features_C'">  </th>
-
       <th onclick="location.href= 'Pricing_C.html'"> </th>
       <th onclick="locaatoin.href= 'About_ZAPS.html'"></th>	
     </tr>
   </table>
 
+
   
 <img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:400px; object-fit:cover;margin-top:60px;">
 
-<h3 id = "01" > How ZAPSearch works? </h3>
+<h3 class="parent" id = "01" > How ZAPSearch works? </h3>
 <h3 id = "02"> Start ZAPSearching </h3>
 <h3 id = "03"> Get the app! </h3>
 <a href = "Customer_Reviews.html"> Customer Reviews </a>
@@ -134,3 +127,4 @@ border-right: 250px solid #B7A46F;
   
 
 </body>
+</html>
