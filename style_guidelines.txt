@@ -1,0 +1,45 @@
+Overall Look and Feel of ZAPSearch
+___________________________________
+
+The overall look and feel of our website should be sleek and mild. We will avoid "loud" colours and overwhelming animations/features. 
+
+
+
+Colours
+________
+
+We are presently trying out many shades of blue-ish grey-ish (with the equivalent complementary colours) for the main colour scheme of our website. They are very neutral colours that mesh well together. Again, nothing too overwhelming.
+
+Our colour scheme will be very similar to :
+
+- #1F2C3C
+- #FFFFFF
+- #A3BCDA
+- #8D774E
+- #DAC6A3
+
+
+
+Iconography
+____________
+
+To stay consistant with our sleek design, elements incorporated into the website will be square and flat, (ex: tables, titles, etc.). No 3D.
+
+
+Typography
+___________
+
+We are currently planning on using : Verdana, Geneva, sans-serif (safe font)
+
+
+
+Links
+______
+
+Links will have no decoration, change colour when hovered over and hopefully have an added "animation" (coloured bar over top) also when hovered over.
+
+
+
+Buttons
+________
+As mentioned above, buttons will be flat and square, and most likely be one of the darker shades of colours established.
