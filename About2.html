@@ -7,7 +7,11 @@
 
 
 <style>
-  
+  body {
+	background-image: url("About3.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px 900px
+}
     html {	
 border-left: 250px solid #E3E8E8;
 border-right: 250px solid #E3E8E8;
@@ -15,7 +19,7 @@ border-right: 250px solid #E3E8E8;
 
   
     .button1 {
-	background-color: #0099FF;
+	background-color: #8D774E;
 	border: none;
 	color: white;
 	padding: 50px 100ps;
@@ -30,6 +34,11 @@ border-right: 250px solid #E3E8E8;
     	height: 50px;
 
 	}
+    .button1:hover {
+	background-color: white;
+	border: 2px solid #8D774E;
+	color: black; }
+	
 
     th:hover {
     background-color: #29acb0; 
@@ -69,20 +78,14 @@ p.dashed {
 
 
 <body>
-  
+  <button onclick="window.location.href='index.html'" class="button1" style="left: 0.66%;">Home </button>
   <button class="button1" style="right: 0.66%;">About Us </button>
   
-  <table id="t01">
-    <tr>
-      <th onclick="location.href= 'Feautures_C.html'"> Features </th>
 
-      <th onclick="location.href= 'Pricing_C.html'"> Pricing </th>
-    </tr>
-  </table>
 
-  <img  src="About.jpg" alt="Background picture, maybe scrolling" width=100% height="400px">
+  <!--img  src="About.jpg" alt="Background picture, maybe scrolling" width=100% height="400px"-->
 
-<h2 style="color:blue; font-size: 20px"> About Us </h2>
+<h2 style="color:#8D774E; font-size: 40px"> About Us </h2>
 
 <p> ZAPS is a team of four students who met up in a first-year software engineering class at uOttawa.</p>
 <img scr="Anthony.jpg" alt="Picture of Anthony" width="150" height="150" style= "display: inline-block; margin-right:50px ; margin-left:150px; border: 3px solid #001A9F; padding: 4px"><img scr="Stephane.jpg" alt="Picture of Stephane" width="150" height="150" style= "display: inline-block; margin-right:50px; margin-left:50px; border: 3px solid #001A9F; padding: 4px"><img scr="Parastoo.jpg" alt="Picture of Parastoo" width="150" height="150" style= "display: inline-block; margin-right:50px; margin-left:50px; border: 3px solid #001A9F; padding: 4px"><img scr="Zaid.jpg" alt="Picture of Zaid" width="150" height="150" style= "display: inline-block; margin-right:80px; margin-left:50px; border: 3px solid #001A9F; padding: 4px">
