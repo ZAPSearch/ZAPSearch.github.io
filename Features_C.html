@@ -30,7 +30,12 @@ border-right: 250px solid #A3BCDA;
 
 	}
 
-    table td:hover {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
+    table td:hover.t1 {border-top: 5px solid #1F2C3C;}
+
+
+table, th, td 
+    text-align:left;
+}
 
 
 
@@ -56,6 +61,23 @@ border-right: 250px solid #A3BCDA;
     margin-top:22%;
     border-top: 5px solid #A3BCDA;
     }
+
+    table#t02 {
+    width: 30%;
+    background-color: #A3BCDA;
+    color: white;
+    cursor: pointer;
+    border-collapse: collapse;
+    text-align: center;
+    height: 8px;
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 16px;
+    position:absolute;
+    right:300;
+    
+    
+ 	
+    z-index:50;}
 	
 
 
@@ -80,13 +102,12 @@ border-right: 250px solid #A3BCDA;
 
 <body style="background-color: #FFFFFF;">
     
-<img onclick="location.href= 'Customers.html'" src="Home_Icon.png" style="width:3%; position:absolute;margin-left:68%; cursor:pointer;">  
     
-    <table id="t01">
+    <table align="right" id="t01">
     <tr>
-      <td onclick="location.href='Features_c.html'" style="cursor:pointer;border-top:5px solid #1F2C3C;color:#1F2C3C;"> Features </td>
-      <td onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;"> Pricing </td>
-      <td onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>		
+      <td class="t1"> <a href="Features_C.html" style="color:red;" >Features</a></td>
+      <td class="t1"> <a href="Pricing_C.html" >Pricing</a></td>
+      <td class="t1"> <a href="About2.html" >About Us</a></td>	
     </tr>
   </table>
 
