@@ -22,7 +22,6 @@ border-right: 250px solid #A3BCDA;
 	display: inline-block;
 	font-size: 16px;
     	cursor: pointer;
-    	position:absolute;
 	font-family: "Verdana", "Geneva", sans-serif;
     	width: 200px; 
     	height: 75px;
@@ -31,8 +30,14 @@ border-right: 250px solid #A3BCDA;
 
 	}
 
-    th:hover {background-color:#1F2C3C}
-     
+    table td:hover {border-top: 5px solid #1F2C3C;}>
+
+
+table, th, td 
+    text-align:left;
+}
+
+
 
     a:link {
     color: white;
@@ -47,13 +52,14 @@ border-right: 250px solid #A3BCDA;
     color: white;
     border-collapse: collapse;
     text-align: center;
-    height: 50px;
+    height: 5%;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    z-index:1;
-    right:300;
+    z-index:2;
     position:absolute;
-    top:45%;
+    margin-left:40%;
+    margin-top:22%;
+    border-top: 5px solid #A3BCDA;
     }
 
     table#t02 {
@@ -66,9 +72,9 @@ border-right: 250px solid #A3BCDA;
     height: 8px;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    top:45%;
     position:absolute;
     right:300;
+    
     
  	
     z-index:50;}
@@ -92,49 +98,43 @@ border-right: 250px solid #A3BCDA;
 
     
 
-<div onclick="location.href= 'index.html'" style="cursor:pointer; width:300px; height:100px; background-color:#1F2C3C; position:absolute; left:350;"><h style="color:white;">*Logo*</h></div>
+<div onclick="location.href= 'index.html'" style="cursor:pointer; width:15%; height:10%; background-color:#1F2C3C; position:absolute; margin-left:5%;"><h style="color:white;">*Logo*</h></div>
 
 <body style="background-color: #FFFFFF;">
     
     
-    <table id="t01">
+    <table align="right" id="t01">
     <tr>
-      <td> <a href="Features_C.html" >Features</a></td>
+      <td> <a href="Features_C.html style="color:red;" >Features</a></td>
       <td> <a href="Pricing_C.html" >Pricing</a></td>
       <td> <a href="About2.html" >About Us</a></td>	
     </tr>
   </table>
 
-  <table id="t02">
-    <tr>     
-      <th onclick="location.href= 'Features_C.html'">  </th>
-      <th onclick="location.href= 'Pricing_C.html'"> </th>
-      <th onclick="location.href= 'About2.html'"></th>	
-    </tr>
-  </table>
+  
+<img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:40%; object-fit:cover;margin-top:60px;">
 
   
-<img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:400px; object-fit:cover;margin-top:60px;">
-
-
-  <p> Hopefully this is the only part of the page that will change, we'll figure it out</p>
-  
-
-  <table style="border:1px solid black; width:25%">
+  <br>
+  <table cellpadding="10" style="font-size:300%; color:#ae9d75;margin-top:2%;">
   <tr>
-    <th>Table for serach criteria</th>
-    <th></th>
-    <th></th>
+    <th colspan="4"> Filter your search results by...</th>
+
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td width="25%">Nearby location</td>
+    <td width="10%"><img src="Location_Icon.png" style="width:50%"</img></td>
+    <td style="font-size:50%;">Have your results diplayed from stores nearest to your location.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Price</td>
+    <td><img src="Price_Icon2.png" style="width:50%"</img></td>
+    <td style="font-size:50%;">Have your results displayed from cheapest to most expensive or in a certain price range.</td>
+  </tr>
+  <tr>
+    <td>Tags</td>
+    <td><img src="Tag_Icon.png" style="width:50%"</img></td>
+    <td colspan="2" style="font-size:50%;">Have your results displayed with certain emphasized tags. For example: A search for a Black V-Neck T-Shirt can prioritize the element "Black", "V-Neck", or "T-Shirt".</td>
   </tr>
   </table> 
 </body>
