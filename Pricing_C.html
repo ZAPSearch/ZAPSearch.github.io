@@ -4,9 +4,10 @@ ZAPSearch
 
 
 
+
 <style>
     
-    html {
+    body {
 	
 border-left: 250px solid #66757e;
 border-right: 250px solid #66757e;
@@ -16,25 +17,8 @@ border-right: 250px solid #66757e;
   		margin-left: auto;
   		margin-right: auto;
 	}	
-    .button1 {
-	background-color: #1F2C3C;
-	border: none;
-	color: white;
-	padding: 50px 100ps;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-    	cursor: pointer;
-	font-family: "Verdana", "Geneva", sans-serif;
-    	width: 200px; 
-    	height: 75px;
-	z-index:1;
 
-
-	}
-
-    table td:hover {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
+    table td:hover.t1 {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
 
 
 
@@ -51,18 +35,23 @@ border-right: 250px solid #66757e;
     color: white;
     border-collapse: collapse;
     text-align: center;
-    height: 5%;
+    height: 50px;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    z-index:2;
-    position:absolute;
-    margin-left:40%;
-    margin-top:22%;
+    float: right;
     border-top: 5px solid #66757e;
+    margin-top:275px;
+    
     }
 	
 
+.header{background-image:url("Retail_BG.jpg");
+height:300px;
+background-position:50% 50%;
+}
 
+.body{
+}
 
 .left p#01 {
 }
@@ -78,26 +67,24 @@ border-right: 250px solid #66757e;
 </head>
 
 
-    
-
-<div onclick="location.href= 'index.html'" style="cursor:pointer; width:15%; height:10%; background-color:#1F2C3C; position:absolute; margin-left:5%;"><h style="color:white;">*Logo*</h></div>
 
 <body style="background-color: #FFFFFF;">
-
-<img onclick="location.href= 'Customers.html'" src="Home_Icon.png" style="width:3%; position:absolute;margin-left:68%; cursor:pointer;">      
     
-    <table id="t01">
+<img onclick="location.href= 'Customers.html'" src="Home_Icon.png" style="width:50px; float:right; margin-right:30px; cursor:pointer;">    
+   
+  <table id="t01">
     <tr>
-      <td onclick="location.href='Features_C.html'" style="cursor:pointer;"> Features </td>
-      <td onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;border-top:5px solid #1F2C3C; color:#1F2C3C;"> Pricing </td>
-      <td onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
+      <td class="t1" onclick="location.href='Features_C.html'" style="cursor:pointer;"> Features </td>
+      <td class="t1" onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;border-top:5px solid #1F2C3C; color:#1F2C3C;"> Pricing </td>
+      <td class="t1" onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
     </tr>
   </table>
 
-  
 
-<img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:40%; object-fit:cover;margin-top:60px;">
-<img  src="free.jpg" class="center" height="48%" width="80%" style="border:5px solid #A3BCDA;margin-top:20px;">
+<div class="header"> <img onclick="location.href= 'index.html'" src="Location_Icon.png" style = "width:150px; cursor:pointer;"></div>
+
+
+<div class="body"> <img src="free.jpg" width="100%"> </div>
 
 
 </body>
