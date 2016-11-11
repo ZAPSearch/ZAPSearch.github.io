@@ -2,46 +2,39 @@
 <html>
 <head>
 <link type = "text/css" rel="stylesheet" href="CustomerReviewCSS.css" />
-<title>Customer Reviews</title>
+<title> Customer Reviews </title>
 <style>
 
-#topleft > img {
+#Jessica {
 	height:420px;
 	width:600px;
-	display: inline-block;
+	display:block;
 	border: 2px solid green;
 	float:left;
 }
 
-#topright > img {
-	height:420px;
-	width:600px;
-	border: 2px solid red;
-	float:right;
+#Jessica's Review {
+	height:10px;
+	width:20px;
+	background-color:blue;
+	border: 2px solid yellow;
 	display:block;
-}
-
-#bottomleft > img {
-	height:600px;
-	width:600px;
-	border: 2px solid orange;
-	float:left;
-	display:inline-block;
+	float: left;
 	}
 
-#bottomright > img{
-	height:320px;
-	width:400px;
-	border: 2px solid blue;
-	float:right;
-	display:block;
-}
+p { 
+	width:200px;
+	}
+
 </style>
 </head>
 <body>
-<div id= "topleft">
-<img src = 'http://www.infinitedentalwellness.com/wp-content/uploads/2014/12/smiling-young-woman-looking-at-c-52426522.jpg'/>
-</div>
+
+
+<img id = "Jessica" src = 'http://www.infinitedentalwellness.com/wp-content/uploads/2014/12/smiling-young-woman-looking-at-c-52426522.jpg'/>
+<button id = 'Jessica's Review' onclick = "document.getElementById('topleftp').style.display='block'"> Jessica's Review </button>
+<p id = 'topleftp' style = "display:None;"> 'ZAPSearch helped me find products that were nearby that I would have never found on my own!' </p>
+
 <div id= "topright">
 <img src = 'http://attractmen.org/wp-content/uploads/2015/10/attractmen.org-libra-men.jpg'/>
 </div>
