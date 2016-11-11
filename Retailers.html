@@ -9,10 +9,11 @@ ZAPSearch
 	font-family: "Verdana", "Geneva", sans-serif;
 	color: #8D774E;
 }
-    html {
+
+body {
 	
-border-left: 250px solid #A3BCDA;
-border-right: 250px solid #A3BCDA;
+border-left: 250px solid #66757e;
+border-right: 250px solid #66757e;
 }
 	p {
 	text-align: center;
@@ -37,9 +38,15 @@ border-right: 250px solid #A3BCDA;
 
 	}
 
-    th:hover {background-color:#1F2C3C;
-	position:relative;}
-     
+    img.center {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}	
+
+    table td:hover.t1 {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
+
+
 
     a:link {
     color: white;
@@ -50,35 +57,24 @@ border-right: 250px solid #A3BCDA;
 
     table#t01 {
     width: 30%;
-    background-color: #A3BCDA;
+    background-color: #66757e;
     color: white;
     border-collapse: collapse;
     text-align: center;
     height: 50px;
     font-family: "Verdana", "Geneva", sans-serif;
     font-size: 16px;
-    z-index:1;
-    right:300;
-    position:absolute;
-    top:45%;
-    }
-
-    table#t02 {
-    width: 30%;
-    background-color: #A3BCDA;
-    color: white;
-    cursor: pointer;
-    border-collapse: collapse;
-    text-align: center;
-    height: 8px;
-    font-family: "Verdana", "Geneva", sans-serif;
-    font-size: 16px;
-    top:45%;
-    position:relative;
-    right:300;
+    float: right;
+    border-top: 5px solid #66757e;
+    margin-top:275px;
     
- 	
-    z-index:50;}
+    }
+	
+
+.header{background-image:url("Retail_BG.jpg");
+height:300px;
+background-position:50% 50%;
+}
 	
 
 
@@ -112,31 +108,22 @@ border-right: 250px solid #A3BCDA;
 </head>
 
 
-    
+<body style="background-color: #FFFFFF;">  
 
-<div onclick="location.href= 'index.html'" style="cursor:pointer; width:300px; height:100px; background-color:#1F2C3C; position:absolute; left:350;"><h style="color:white;">*Logo*</h></div>
-
-<body style="background-color: #FFFFFF;">
-    
-    
-    <table id="t01">
+<img onclick="location.href= 'Retailers.html'" src="Home_Icon.png" style="width:50px; float:right; margin-right:30px; cursor:pointer;">    
+   
+  <table id="t01">
     <tr>
-      <td> <a href="Features_R.html" >Features</a></td>
-      <td> <a href="Pricing_R.html" >Pricing</a></td>
-      <td> <a href="About2.html" >About Us</a></td>	
+      <td class="t1" onclick="location.href='Features_R.html'" style="cursor:pointer;"> Features </td>
+      <td class="t1" onclick="location.href= 'Pricing_R.html'" style="cursor:pointer;"> Pricing </td>
+      <td class="t1" onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
     </tr>
   </table>
 
-  <table id="t02">
-    <tr>     
-      <th onclick="location.href= 'Features_R.html'">  </th>
-      <th onclick="location.href= 'Pricing_R.html'"> </th>
-      <th onclick="location.href= 'About2.html'"></th>	
-    </tr>
-  </table>
 
-  
-<img  src="Retail_BG.jpg" alt="Some pic" style="width:100%;height:400px; object-fit:cover;margin-top:60px;">
+<div class="header"> <img onclick="location.href= 'index.html'" src="Location_Icon.png" style = "width:150px; cursor:pointer;"></div>
+
+
 <!--<div class ='left'>
 <h4> Why You Want Your Store Listed on ZAPSearch? </h4>
 <img src = "http://www.ats.ucla.edu/stat/stata/faq/barcap3.gif" style = height:235px; width:350px/>
@@ -145,6 +132,11 @@ border-right: 250px solid #A3BCDA;
 <h4 id = "Js"> Join Us! </h4>
 <img src = "https://s-media-cache-ak0.pinimg.com/564x/a8/ba/68/a8ba68b7ddac40d8a07364cb54b1a45b.jpg" style = height:235px; width:350px/>
 -->
+
+
+
+<br>
+<br>
 <h1> What is Zapsearch?</h1>
 <p>
 Zapsearch is a website that will work with corporations to create a database of retail store inventories. These inventories can then be searched by customers looking to purchase products near them.
