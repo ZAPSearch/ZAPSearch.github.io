@@ -6,7 +6,7 @@ ZAPSearch
 
 <style>
     
-    html {
+    body {
 	
 border-left: 250px solid #66757e;
 border-right: 250px solid #66757e;
@@ -34,7 +34,7 @@ border-right: 250px solid #66757e;
 
 	}
 
-    table td:hover {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
+    table td:hover.t1 {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
 
 
 
@@ -61,7 +61,10 @@ border-right: 250px solid #66757e;
     border-top: 5px solid #66757e;
     }
 	
-
+    .page-wrap{
+    width:100%;
+    margin: 0 auto;
+    }
 
 
 .left p#01 {
@@ -80,17 +83,19 @@ border-right: 250px solid #66757e;
 
     
 
-<div onclick="location.href= 'index.html'" style="cursor:pointer; width:15%; height:10%; background-color:#1F2C3C; position:absolute; margin-left:5%;"><h style="color:white;">*Logo*</h></div>
+<div class="page-wrap">
 
 <body style="background-color: #FFFFFF;">
+
+<div onclick="location.href= 'index.html'" style="cursor:pointer; width:15%; height:10%; background-color:#1F2C3C; position:absolute; margin-left:5%;"><h style="color:white;">*Logo*</h></div>
     
 <img onclick="location.href= 'Customers.html'" src="Home_Icon.png" style="width:3%; position:absolute;margin-left:68%; cursor:pointer;">    
     
   <table id="t01">
     <tr>
-      <td onclick="location.href='Features_C.html'" style="cursor:pointer;border-top:5px solid #1F2C3C; color:#1F2C3C;"> Features </td>
-      <td onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;"> Pricing </td>
-      <td onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
+      <td class="t1" onclick="location.href='Features_C.html'" style="cursor:pointer;border-top:5px solid #1F2C3C; color:#1F2C3C;"> Features </td>
+      <td class="t1" onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;"> Pricing </td>
+      <td class="t1" onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
     </tr>
   </table>
 
@@ -121,3 +126,4 @@ border-right: 250px solid #66757e;
   </tr>
   </table> 
 </body>
+</div>
