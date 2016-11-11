@@ -8,10 +8,14 @@ ZAPSearch
     
     html {
 	
-border-left: 250px solid #A3BCDA;
-border-right: 250px solid #A3BCDA;
+border-left: 250px solid #66757e;
+border-right: 250px solid #66757e;
 }
-
+	img.center {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}	
     .button1 {
 	background-color: #1F2C3C;
 	border: none;
@@ -30,12 +34,7 @@ border-right: 250px solid #A3BCDA;
 
 	}
 
-    table td:hover {border-top: 5px solid #1F2C3C;}
-
-
-table, th, td 
-    text-align:left;
-}
+    table td:hover {border-top: 5px solid #1F2C3C; color:#1F2C3C;}
 
 
 
@@ -48,7 +47,7 @@ table, th, td
 
     table#t01 {
     width: 30%;
-    background-color: #A3BCDA;
+    background-color: #66757e;
     color: white;
     border-collapse: collapse;
     text-align: center;
@@ -59,25 +58,8 @@ table, th, td
     position:absolute;
     margin-left:40%;
     margin-top:22%;
-    border-top: 5px solid #A3BCDA;
+    border-top: 5px solid #66757e;
     }
-
-    table#t02 {
-    width: 30%;
-    background-color: #A3BCDA;
-    color: white;
-    cursor: pointer;
-    border-collapse: collapse;
-    text-align: center;
-    height: 8px;
-    font-family: "Verdana", "Geneva", sans-serif;
-    font-size: 16px;
-    position:absolute;
-    right:300;
-    
-    
- 	
-    z-index:50;}
 	
 
 
@@ -102,12 +84,13 @@ table, th, td
 
 <body style="background-color: #FFFFFF;">
     
+<img onclick="location.href= 'Customers.html'" src="Home_Icon.png" style="width:3%; position:absolute;margin-left:68%; cursor:pointer;">    
     
-    <table align="right" id="t01">
+  <table id="t01">
     <tr>
-      <td> <a href="Features_C.html" style="color:red;" >Features</a></td>
-      <td> <a href="Pricing_C.html" >Pricing</a></td>
-      <td> <a href="About2.html" >About Us</a></td>	
+      <td onclick="location.href='Features_C.html'" style="cursor:pointer;border-top:5px solid #1F2C3C; color:#1F2C3C;"> Features </td>
+      <td onclick="location.href= 'Pricing_C.html'" style="cursor:pointer;"> Pricing </td>
+      <td onclick="location.href= 'About2.html'" style="cursor:pointer;"> About Us </td>	
     </tr>
   </table>
 
